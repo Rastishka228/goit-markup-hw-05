@@ -800,6 +800,9 @@ h5 {
   justify-content: center;
   fill: transparent;
 }
+.span-line-2 {
+  margin-left: 8px;
+}
 .span-icon {
 }
 .input-checkbox:checked + .label-checkbox .span-line {
@@ -826,4 +829,10 @@ h5 {
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin: 0 auto;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.button-send:hover,
+.button-send:focus {
+  background-color: var(--bg-btn-hover);
 }
