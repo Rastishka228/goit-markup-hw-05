@@ -799,9 +799,11 @@ h5 {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  cursor: pointer;
 }
 .span-line-2 {
   margin-left: 8px;
+  cursor: pointer;
 }
 .span-icon {
 }
